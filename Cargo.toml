@@ -1,0 +1,13 @@
+[package]
+name = "walking-distance"
+version = "0.1.0"
+authors = ["Johan Govers <johan@otherweb.eu>"]
+edition = "2018"
+
+[dependencies]
+gpx = {git = "https://github.com/CurrySoftware/gpx.git" }
+log = "0.4.0"
+env_logger = "0.7.1"
+geo = "0.12.2"
+chrono = "0.4"
+geo-types = "0.4.3"
